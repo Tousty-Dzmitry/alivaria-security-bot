@@ -1,6 +1,3 @@
-# BOT_TOKEN = '6119057214:AAFfWbstixdSv64T34PMfUIDVcHSmKzEWJs'
-# name in telegram= Сonstructor Bot
-# id = 5489411423
 
 
 from aiogram import Bot, Dispatcher, F
@@ -68,7 +65,7 @@ async def set_main_menu(bot: Bot):
 # приватные пользователи
 
 CACHE = {
-    'private': [5489411423, '''784520574, Германов''', '''5524913683 русецкий'''],
+    'private': [5489411423, '''784520574''', '''5524913683 '''],
 }
 
 # Middleware на допуск только приватных пользователей
